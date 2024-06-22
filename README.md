@@ -1,42 +1,52 @@
-# SlidelyAI Google Form
+# SlidelyAI Google Form Desktop App
 
-Welcome to the frontend project of Google Forms in a Windows Desktop App!
-
-This project serves as the frontend for [brief description of your project]. Below are instructions on how to set up your development environment and run the frontend application.
+This repository contains the frontend for the SlidelyAI Internship project. The frontend is a desktop application that allows users to create, view, and delete submissions.
 
 ## Features:
 - View Submitted Form
 - Create New Form
 - Delete existing data
-  
-## Installation
+- Shortcut window keys
+- Previous and next for viewing multiple submissions
+- Timer for starting, stopping, and restart at the same time
 
-Follow these steps to set up the frontend on your local machine.
-
-### Prerequisites
+## Prerequisites
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [.NET Framework](https://dotnet.microsoft.com/download) (version 4.7.2 or higher)
+- [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) (JSON.NET library for .NET)
 
 Make sure you have the following installed:
 
-- Node.js (version X.X.X or higher)
-- npm (Node Package Manager) or yarn
+- Node.js 
+- npm (Node Package Manager) 
 
-### Clone the Repository
+## Installation
 
-1. git clone[ https://github.com/yourusername/frontend.git](https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-DesktopApp)
+Follow these steps to set up the frontend on your local machine:
 
-### Install Dependencies
-- Using npm
-- npm install
+### Step 1: Clone the Repository
 
-### Configuration
-- No specific configuration is needed for the frontend in this example.
+- git clone https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-DesktopApp.git
+- cd -Garv-Chouhan-SlidelyAI-DesktopApp
 
-Development Server
-Run the following command to start the development server:
+### Step 2: Open the Project
+Open the project in Visual Studio.
 
-- npm start
-  
-  This command will start a development server and open your default web browser to view the frontend application. Any changes you make to the code will automatically reload the application.
+### Step 3: Install NuGet Packages
+Open the NuGet Package Manager Console from Tools > NuGet Package Manager > Package Manager Console and run the following command:
 
+-Install-Package Newtonsoft.Json
+
+### Step 4: Run the Project
+Build and run the project in Visual Studio. The desktop application should start and be ready to use.
+
+## Usage
+- Create Submission: Fill out the form and click "Submit" to create a new submission.
+- View Submissions: Use the "Previous" and "Next" buttons to navigate through submissions.
+- Delete Submissions: Click "Delete" to remove a submission from the database.
+- Shortcut Keys: There are many Windows commands mentioned on the buttons for better usage.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
