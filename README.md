@@ -2,6 +2,18 @@
 
 This repository contains the frontend for the SlidelyAI Internship project. The frontend is a desktop application that allows users to create, view, and delete submissions.
 
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### View Submissions Form
+![View Submissions Form](screenshots/view_submissions_form.png)
+
+### Create Submission Form
+![Create Submission Form](screenshots/create_submission_form.png)
+
+
 ## Features:
 - View Submitted Form
 - Create New Form
